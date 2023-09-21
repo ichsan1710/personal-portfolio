@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCHSAN.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/699b7f73b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoichsan-03.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I am <span>ICHSAN</span><br> From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----About----->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ichsan5.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="sub-details">Hello! I'm Ichsan and I'm on an exciting journey of transitioning from a wonderful career in the hospitality industry to the dynamic world of technology, 
+                        with a keen focus on becoming a skilled software developer. With over six years of experience in the hospitality sector, I've honed my customer service, communication and problem-solving skills. 
+                        Now, I am applying those skills to forge a new path in the technology industry.
+                        <br />As I've grown in my career, I've always been intrigued by the role of technology in enhancing customer experiences. This fascination led me to make a pivotal decision: to pivot my career towards 
+                        software development. I embarked on a transformational journey by enrolling in a full-stack web development bootcamp. My time in the bootcamp has been nothing short of exhilarating. I've immersed 
+                        myself in the world of coding, web development and software architecture. <br />While I appreciate the full stack, I've discovered that my true passion lies in backend development. There's something 
+                        incredibly satisfying about crafting robust, efficient and scalable solutions that power the application we use daily. Thank you for taking the time to get to know me. I'm always open to new connections, 
+                        collaborations and opportunities to learn and grow. If you'd like to connect or discuss potential projects, please feel free to reach out. Let's build something great together!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onClick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onClick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onClick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>Javascript, Typescript</li>
+                            <li><span>Back End</span><br>Node JS, Mysql, MongoDB, Express, PostgreSQL</li>
+                            <li><span>Front End</span><br>React JS, Three JS, CSS, Bootstrap, Tailwind CSS, Redux, React Native</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2022 - Present</span><br>Business Owner of Mitra POS Lion Parcel</li>
+                            <li><span>Jan 2020 - Dec 2021</span><br>Front Office Supervisor at Fairmont Jakarta</li>
+                            <li><span>Feb 2017 - Jan 2020</span><br>Front Desk Agent at Fairmont Jakarta</li>
+                            <li><span>Sep 2016 - Feb 2017</span><br>Royal Service Agent at Fairmont Jakarta</li>
+                            <li><span>Sep 2014 - Sep 2015</span><br>Front Desk Agent at Ayana Resort and Spa Bali</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Full Stack Web Development Bootcamp at Purwadhika Digital Technology School</li>
+                            <li><span>2016</span><br>International Business at Swiss German University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Services----->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Transform your ideas into stunning, interactive websites and web applications with web development services. Specializing in crafting responsive, user-friendly websites that are tailored to your unique business needs. Whether you need a simple website, a complex e-commerce platform or a custom web solution. Delivering high-quality, scalable web solutions that help your business thrive online.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software Engineering</h2>
+                    <p>Unlock the full potential of your business with software engineering expertise. Ready to design, develop, and maintain robust software solutions that streamline your operations and drive efficiency. Focusing on delivering secure, scalable, and innovative software products that propel your business forward.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-servicestack"></i>
+                    <h2>Web Services</h2>
+                    <p>Experience seamless and reliable web services that power your online presence. Designed to keep your websites and applications running smoothly, ensuring minimal downtime and optimal performance. Committed to providing top-notch web services that enable you to focus on your core business activities while your digital infrastructure will be taking care of.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-----Portfolios----->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolios</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>3D Shirt Customizer Website</h3>
+                        <p>Experience the future of personalized fashion with 3D Shirt Customizer Website. This cutting-edge web application seamlessly blends technology and style, allowing users to design their own unique shirts in stunning 3D. I've leveraged the power of three.js, React, Node.js, and the DALL·E AI image generation to create an immersive and highly interactive platform that sets a new standard in online apparel customization.</p>
+                        <a href="https://timely-kangaroo-a61630.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>Book Store Website</h3>
+                        <p>Streamlined online bookstore project that seamlessly combines Node.js, React, CSS, and MySQL, utilizing the power of Heroku for Node.js deployment and ClearDB as the database add-on. This project is designed for simplicity and efficiency, enabling users to effortlessly manage a curated collection of books. Users can easily add, edit, and delete books from the bookstore's database. To ensure seamless handling and storage of book cover images, utilizing AWS S3 and the Multer AWS SDK, guaranteeing secure and reliable image storage. Due to resource limitations, careful Dyno management is crucial to maintain the backend's availability and ensure smooth performance. Users are encouraged to reach out to the project owner for access to the application and to monitor its status.</p>
+                        <a href="https://sprightly-dodol-08fac8.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Chat Application Website</h3>
+                        <p>Discover the future of online communication by exploring the Chat Application Website. Connect with friends, collaborate with colleagues and experience the convenience of real-time chat in a secure and efficient environment. Built on the MERN (MongoDB, Express.js, React, Node.js) stack, this platform revolutionizes online conversations. Packed with innovative features like real-time online indicators, file uploads/attachments, auto-scrolling and secure WebSocket connections, the Chat Application Website is a testament to modern web development.</p>
+                        <a href="https://radiant-melomakarona-b585c3.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="hidden-work-list">
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Real Project: Business Website Development</h3>
+                            <p>Dedicated to bringing your business' online presence to life with a meticulously designed and expertly developed Business Website. With a robust backend architecture powered by MySQL, Node.js and Express.js, our project represents the culmination of collaboration between three skilled individuals. While I focus on the backend infrastructure, my talented colleagues handle UI/UX design and front-end architecture. Together, we are crafting a bespoke web solution tailored to your specific needs. While we're in the midst of development, we're excited to offer a sneak peek of what the final Business Website will look like.</p>
+                            <a href="https://www.fiororganizer.com" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-wrapper">
+                <a href="#" class="btn toggle-btn">Show More</a>
+                <a href="#" class="btn hide-btn">Hide</a>
+            </div>
+        </div>
+    </div>
+
+    <!-----Contact----->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ichsanmochammad@gmail.com</p>
+                    <p><i class="fa-brands fa-square-whatsapp"></i>+62 81291254795</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mochammad-ichsan" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ichsan1710" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/my_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © iCHSAN.</p>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabName) {
+            for(tabLink of tabLinks){
+                tabLink.classList.remove("active-link");
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sidemenu")
+        
+        function openMenu(){
+            sideMenu.style.right = "0";
+        }
+        function closeMenu(){
+            sideMenu.style.right = "-150px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyhLm4tfzHAyrURYo7LKE_nsxAJe3adpoTqzoRL1tO6-wXnNcXDZJzSZrHWTnWyi5xcIw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+  
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const toggleButton = document.querySelector(".toggle-btn")
+    const hideButton = document.querySelector(".hide-btn");
+    const hiddenWorkList = document.querySelector(".hidden-work-list");
+
+    toggleButton.addEventListener("click", function(e) {
+        e.preventDefault()
+        hiddenWorkList.style.display = "grid";
+        toggleButton.style.display = "none"
+        hideButton.style.display = "block";
+    });
+
+    hideButton.addEventListener("click", function(e) {
+        e.preventDefault()
+        hiddenWorkList.style.display = "none";
+        toggleButton.style.display = "block";
+        hideButton.style.display = "none";
+    });
+});
+</script>
+
+</body>
+</html>
